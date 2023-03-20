@@ -1,0 +1,6 @@
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-06bf8e441ff8de6c6
+      InstanceType: t2.mirco
